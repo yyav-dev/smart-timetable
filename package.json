@@ -1,0 +1,12 @@
+{
+  "name": "smart-timetable",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "cd apps/api && bun run dev",
+    "dev:web": "cd apps/web && npm run start"
+  },
+  "overrides": {
+    "typescript": "~5.5.4"
+  }
+}

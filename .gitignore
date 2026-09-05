@@ -1,0 +1,34 @@
+# Node & Bun dependencies
+node_modules/
+.bun/
+bun.lock
+
+# Angular cache & build
+.angular/
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Python & OCR cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/
+*.log
